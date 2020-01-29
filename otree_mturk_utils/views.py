@@ -5,7 +5,7 @@ from django.http import HttpResponseRedirect, Http404, HttpResponse
 from django.core.exceptions import ObjectDoesNotExist
 from django.forms import ModelForm
 
-from otree.common_internal import get_models_module
+from otree.common import get_models_module
 from otree.models import Participant
 from . import models
 from ._builtin import Page, WaitPage
@@ -268,7 +268,3 @@ class CustomMturkWaitPage(WaitPage):
     def extra_task_to_execute_with_is_display(self):
         self.participant.vars.setdefault('starting_time_stamp_{}'.format(self._index_in_pages), time.time())
 
-
-
-
-        

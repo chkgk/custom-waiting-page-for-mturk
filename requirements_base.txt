@@ -1,3 +1,2 @@
-Django==1.8.8
-otree-core>=1.4.18
+otree
 django-radiogrid

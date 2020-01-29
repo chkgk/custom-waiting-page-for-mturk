@@ -69,8 +69,7 @@ REAL_WORLD_CURRENCY_DECIMAL_PLACES = 3
 LANGUAGE_CODE = 'en'
 
 # if an app is included in SESSION_CONFIGS, you don't need to list it here
-INSTALLED_APPS = ['otree', 'otree_mturk_utils']
-
+INSTALLED_APPS = ['otree']
 EXTENSION_APPS = ['otree_mturk_utils']
 
 # SENTRY_DSN = ''
